@@ -49,6 +49,13 @@ const Result = ({ onPageChange, name, targetWord, difficulty, turn }) => {
                 <Button onClick={handleShare}>공유</Button>
                 <Button onClick={() => onPageChange('main-menu')}>다시하기</Button>
             </div>
+            <div className="kakao-ad">
+                <ins class="kakao_ad_area" style={{display:"none"}}
+                    data-ad-unit="DAN-Z9n1dd3BJfyJWaL7"
+                    data-ad-width="320"
+                    data-ad-height="100"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+            </div>
         </div>
     );
 };

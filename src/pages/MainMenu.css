@@ -1,0 +1,8 @@
+.kakao-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 340px;
+    min-height: 120px;
+}
