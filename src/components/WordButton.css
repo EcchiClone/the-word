@@ -1,0 +1,19 @@
+.word-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.word-button:hover {
+    background-color: #45a049;
+}
+.word-button {
+    flex: 1 0 30%;  /* grow, shrink, basis */
+    margin: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+.word-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.word-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
