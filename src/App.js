@@ -25,8 +25,18 @@ const App = () => {
     setUsername(newUsername);
   };
 
+  const appStyle = {  // Add this
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+    background: `url(${process.env.PUBLIC_URL}/background.png) no-repeat center center fixed`,
+    backgroundSize: 'cover'
+  };
+
   return (
-    <div className="App">
+    <div className="App" style={appStyle}> 
       {page === 'login' && <Login onPageChange={handlePageChange} onUsernameChange={handleUsernameChange} />}
       {page === 'main-menu' && <MainMenu onPageChange={handlePageChange} username={username} />}
       {page === 'difficulty-selection' && <DifficultySelection onPageChange={handlePageChange} onDifficultyChange={handleDifficultyChange} />}
