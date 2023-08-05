@@ -133,6 +133,7 @@ const Game = ({ difficulty, onPageChange, onTargetWordChange, onTurnChange }) =>
         }
 
         setCandidateWords(answersList);
+        setTurn(turn + 1);  // 턴 수를 업데이트합니다.
         setIsLoading(false);
     };
 
